@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9F5EA9E8824B627C54D9CCD9 /* Pods_Spotlights_SpotlightsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF733D1839A2718BFE1E6BD2 /* Pods_Spotlights_SpotlightsTests.framework */; };
 		EB3A501F246ED93D0021ABEC /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A501E246ED93D0021ABEC /* Rectangle.swift */; };
-		EB913BCE246D247900535153 /* Spotlights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB913BC4246D247800535153 /* Spotlights.framework */; };
 		EB913BD3246D247900535153 /* SpotlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB913BD2246D247900535153 /* SpotlightsTests.swift */; };
 		EB913BD5246D247900535153 /* Spotlights.h in Headers */ = {isa = PBXBuildFile; fileRef = EB913BC7246D247800535153 /* Spotlights.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC6F293246D27B200C5D67A /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6F292246D27B200C5D67A /* Effect.swift */; };
@@ -76,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB913BCE246D247900535153 /* Spotlights.framework in Frameworks */,
 				9F5EA9E8824B627C54D9CCD9 /* Pods_Spotlights_SpotlightsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
