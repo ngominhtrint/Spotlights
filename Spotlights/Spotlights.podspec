@@ -79,7 +79,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ngominhtrint/Spotlights.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ngominhtrint/Spotlights.git" }
+
+  #, :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Spotlights/**/*.{h,m}", "Spotlights/**/*"
-  spec.exclude_files = "Spotlights/*.plist"
+  spec.exclude_files = "Spotlights/*.plist", "Spotlights/Pods/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
 
