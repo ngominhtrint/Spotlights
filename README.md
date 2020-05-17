@@ -40,7 +40,7 @@ pod install
 - Note: we're also able to create a Square shape without corner radius
 
 ```
-	Rectangle(width: 100, height: 100)
+    Rectangle(width: 100, height: 100)
 ```
 
 #### Create sample overlay with 3 buttons: prev, next & stop spotlight
