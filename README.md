@@ -194,7 +194,7 @@ spotlight = SpotlightBuilder()
 
 ## Video Walkthrough
 
-<img src="media/spotlights.mov" alt="spotlights demo" style="width:200px;"/>
+<img src="media/spotlights.gif" alt="spotlights demo" style="width:200px;"/>
 
 ## Contribution
 
