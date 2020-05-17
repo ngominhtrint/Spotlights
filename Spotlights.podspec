@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = "5.0"
   spec.platform     = :ios
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Spotlights/**/*.{h,m}", "Spotlights/**/*"
+  spec.source_files  = "Spotlights/Spotlights/**/*.{h,m}", "Spotlights/Spotlights/**/*"
   spec.exclude_files = "Spotlights/Spotlights/*.plist", "Spotlights/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"

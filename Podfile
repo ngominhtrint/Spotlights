@@ -4,9 +4,10 @@
 target 'SpotlightsDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  source 'https://github.com/ngominhtrint/Spotlights.git'
 
   # Pods for SpotlightsDemo
-#  pod 'Spotlights', :git => 'https://github.com/ngominhtrint/Spotlights.git'
+  pod 'Spotlights'
 
   target 'SpotlightsDemoTests' do
     inherit! :search_paths
