@@ -92,7 +92,7 @@ pod install
 
 #### Start spotlight
 
-// After all, don't forget to start spotlight
+ - After all, don't forget to start spotlight
 
 ```
    spotlight.start()
@@ -112,6 +112,7 @@ pod install
 
 ```
 extension ViewController: TargetDelegate {
+  
   func didTargetStart(target: Target, index: Int) {
     print("TargetDelegate didTargetStart, index: \(index)")
   }
@@ -136,6 +137,7 @@ extension ViewController: TargetDelegate {
 
 ```
 extension ViewController: SpotlightDelegate {
+  
   func didStart(spotlight: Spotlight) {
     print("SpotlightDelegate didStart")
   }
