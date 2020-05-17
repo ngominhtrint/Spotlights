@@ -15,7 +15,7 @@ pod 'Spotlights', :git => 'https://github.com/ngominhtrint/Spotlights.git'
 pod 'Spotlights'
 ```
 
-Then, for terminal
+Then, from Terminal
 
 ```
 pod install
