@@ -46,7 +46,6 @@ pod install
 #### Create sample overlay with 3 buttons: prev, next & stop spotlight
 
 ```
-// Create sample overlay view
     let overlay = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
     overlay.addSubview(prevButton)
     overlay.addSubview(nextButton)
