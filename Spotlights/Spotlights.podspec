@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Spotlights"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A library to focus on view items as introduction your app behavior."
 
   # This description is used to generate tags and improve search results.
