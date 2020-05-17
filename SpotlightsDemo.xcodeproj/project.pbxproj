@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		34D89F52DF78D4758E0348E8 /* Pods_SpotlightsDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DCD2878B5A6E36EEFEDC1C /* Pods_SpotlightsDemoTests.framework */; };
+		E478EAEB1B9314E521EADE39 /* Pods_SpotlightsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E8257357E0C9A5634B174E /* Pods_SpotlightsDemo.framework */; };
 		EB44BEF5246FFA08003AC8C8 /* FirstOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44BEF3246FFA08003AC8C8 /* FirstOverlay.swift */; };
 		EB44BEF6246FFA08003AC8C8 /* FirstOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB44BEF4246FFA08003AC8C8 /* FirstOverlay.xib */; };
-		EBC6F2AC246E845300C5D67A /* SpotlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6F2AB246E845300C5D67A /* SpotlightViewController.swift */; };
 		EBD6E330246D24BC001FF938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6E32F246D24BC001FF938 /* AppDelegate.swift */; };
 		EBD6E334246D24BC001FF938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6E333246D24BC001FF938 /* ViewController.swift */; };
 		EBD6E337246D24BC001FF938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD6E335246D24BC001FF938 /* Main.storyboard */; };
@@ -26,7 +26,6 @@
 		7811B61F80BAEDB598CA675E /* Pods-SpotlightsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightsDemo.debug.xcconfig"; path = "Target Support Files/Pods-SpotlightsDemo/Pods-SpotlightsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB44BEF3246FFA08003AC8C8 /* FirstOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOverlay.swift; sourceTree = "<group>"; };
 		EB44BEF4246FFA08003AC8C8 /* FirstOverlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstOverlay.xib; sourceTree = "<group>"; };
-		EBC6F2AB246E845300C5D67A /* SpotlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightViewController.swift; sourceTree = "<group>"; };
 		EBD6E32C246D24BC001FF938 /* SpotlightsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6E32F246D24BC001FF938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD6E333246D24BC001FF938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E478EAEB1B9314E521EADE39 /* Pods_SpotlightsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,6 @@
 				EBD6E33D246D24BD001FF938 /* Info.plist */,
 				EBD6E33A246D24BD001FF938 /* LaunchScreen.storyboard */,
 				EBD6E335246D24BC001FF938 /* Main.storyboard */,
-				EBC6F2AB246E845300C5D67A /* SpotlightViewController.swift */,
 				EBD6E333246D24BC001FF938 /* ViewController.swift */,
 			);
 			path = SpotlightsDemo;
@@ -136,6 +135,7 @@
 				EBD6E328246D24BC001FF938 /* Sources */,
 				EBD6E329246D24BC001FF938 /* Frameworks */,
 				EBD6E32A246D24BC001FF938 /* Resources */,
+				D227C323267AED4C253B3D06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +268,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D227C323267AED4C253B3D06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotlightsDemo/Pods-SpotlightsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotlightsDemo/Pods-SpotlightsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotlightsDemo/Pods-SpotlightsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,7 +294,6 @@
 			files = (
 				EBD6E334246D24BC001FF938 /* ViewController.swift in Sources */,
 				EBD6E330246D24BC001FF938 /* AppDelegate.swift in Sources */,
-				EBC6F2AC246E845300C5D67A /* SpotlightViewController.swift in Sources */,
 				EB44BEF5246FFA08003AC8C8 /* FirstOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

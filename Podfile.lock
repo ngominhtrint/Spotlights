@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 7acd81e5b9c231cee5fddd69aa00c9e4e9548db5
+PODS:
+  - Spotlights (0.0.5)
+
+DEPENDENCIES:
+  - Spotlights (from `https://github.com/ngominhtrint/Spotlights.git`)
+
+EXTERNAL SOURCES:
+  Spotlights:
+    :git: https://github.com/ngominhtrint/Spotlights.git
+
+CHECKOUT OPTIONS:
+  Spotlights:
+    :commit: d51a440504f98f909565c58f5a04a33ad609e058
+    :git: https://github.com/ngominhtrint/Spotlights.git
+
+SPEC CHECKSUMS:
+  Spotlights: 4467a795e95ff71ab1d140bfd180234b5757ccbc
+
+PODFILE CHECKSUM: d5fc3c9e13cac666c999afb8adcad7f2eb984b04
 
 COCOAPODS: 1.8.0
