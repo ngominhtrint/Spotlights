@@ -34,13 +34,6 @@
 			remoteGlobalIDString = EB913BCD246D247900535153;
 			remoteInfo = SpotlightsTests;
 		};
-		EBD6E343246D24BD001FF938 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBD6E324246D24BC001FF938 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EBD6E32B246D24BC001FF938;
-			remoteInfo = SpotlightsDemo;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -193,7 +186,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EBD6E344246D24BD001FF938 /* PBXTargetDependency */,
 			);
 			name = SpotlightsDemoTests;
 			productName = SpotlightsDemoTests;
@@ -350,14 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EBD6E344246D24BD001FF938 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EBD6E32B246D24BC001FF938 /* SpotlightsDemo */;
-			targetProxy = EBD6E343246D24BD001FF938 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBD6E335246D24BC001FF938 /* Main.storyboard */ = {

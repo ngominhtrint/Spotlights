@@ -25,16 +25,6 @@
 		EBC6F2AA246D5F3E00C5D67A /* SpotlightBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6F2A9246D5F3E00C5D67A /* SpotlightBuilder.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EB913BCF246D247900535153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB913BBB246D247800535153 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB913BC3246D247800535153;
-			remoteInfo = Spotlights;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		21264104517E4D40A0F4429E /* Pods-Spotlights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlights.debug.xcconfig"; path = "Target Support Files/Pods-Spotlights/Pods-Spotlights.debug.xcconfig"; sourceTree = "<group>"; };
 		4D66241C163958F57AAF9418 /* Pods_Spotlights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotlights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,7 +204,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EB913BD0246D247900535153 /* PBXTargetDependency */,
 			);
 			name = SpotlightsTests;
 			productName = SpotlightsTests;
@@ -353,14 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EB913BD0246D247900535153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EB913BC3246D247800535153 /* Spotlights */;
-			targetProxy = EB913BCF246D247900535153 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EB913BD6246D247900535153 /* Debug */ = {
