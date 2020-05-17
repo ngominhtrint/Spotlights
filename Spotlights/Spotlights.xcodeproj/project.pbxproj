@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F5EA9E8824B627C54D9CCD9 /* Pods_Spotlights_SpotlightsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF733D1839A2718BFE1E6BD2 /* Pods_Spotlights_SpotlightsTests.framework */; };
 		EB3A501F246ED93D0021ABEC /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A501E246ED93D0021ABEC /* Rectangle.swift */; };
 		EB913BD3246D247900535153 /* SpotlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB913BD2246D247900535153 /* SpotlightsTests.swift */; };
 		EB913BD5246D247900535153 /* Spotlights.h in Headers */ = {isa = PBXBuildFile; fileRef = EB913BC7246D247800535153 /* Spotlights.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,10 +34,8 @@
 		EB3A501E246ED93D0021ABEC /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		EB913BC4246D247800535153 /* Spotlights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spotlights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB913BC7246D247800535153 /* Spotlights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spotlights.h; sourceTree = "<group>"; };
-		EB913BC8246D247900535153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB913BCD246D247900535153 /* SpotlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB913BD2246D247900535153 /* SpotlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightsTests.swift; sourceTree = "<group>"; };
-		EB913BD4246D247900535153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBC6F292246D27B200C5D67A /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
 		EBC6F295246D284400C5D67A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		EBC6F297246D28DE00C5D67A /* SpotlightDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5EA9E8824B627C54D9CCD9 /* Pods_Spotlights_SpotlightsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +114,6 @@
 				EBC6F294246D281B00C5D67A /* Shape */,
 				EBC6F291246D27A300C5D67A /* Effect */,
 				EB913BC7246D247800535153 /* Spotlights.h */,
-				EB913BC8246D247900535153 /* Info.plist */,
 				EBC6F297246D28DE00C5D67A /* SpotlightDelegate.swift */,
 				EBC6F299246D292700C5D67A /* TargetDelegate.swift */,
 				EBC6F29B246D298E00C5D67A /* Target.swift */,
@@ -135,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				EB913BD2246D247900535153 /* SpotlightsTests.swift */,
-				EB913BD4246D247900535153 /* Info.plist */,
 			);
 			path = SpotlightsTests;
 			sourceTree = "<group>";
