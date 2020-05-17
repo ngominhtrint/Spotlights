@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB3A501F246ED93D0021ABEC /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A501E246ED93D0021ABEC /* Rectangle.swift */; };
-		EB913BD3246D247900535153 /* SpotlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB913BD2246D247900535153 /* SpotlightsTests.swift */; };
 		EB913BD5246D247900535153 /* Spotlights.h in Headers */ = {isa = PBXBuildFile; fileRef = EB913BC7246D247800535153 /* Spotlights.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC6F293246D27B200C5D67A /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6F292246D27B200C5D67A /* Effect.swift */; };
 		EBC6F296246D284400C5D67A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6F295246D284400C5D67A /* Shape.swift */; };
@@ -31,11 +30,10 @@
 		BF733D1839A2718BFE1E6BD2 /* Pods_Spotlights_SpotlightsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotlights_SpotlightsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5348DCB73095F72AF532327 /* Pods-Spotlights-SpotlightsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlights-SpotlightsTests.release.xcconfig"; path = "Target Support Files/Pods-Spotlights-SpotlightsTests/Pods-Spotlights-SpotlightsTests.release.xcconfig"; sourceTree = "<group>"; };
 		E60459121837008A9E886606 /* Pods-Spotlights-SpotlightsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlights-SpotlightsTests.debug.xcconfig"; path = "Target Support Files/Pods-Spotlights-SpotlightsTests/Pods-Spotlights-SpotlightsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB02F51E2470FEED002CCF18 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB3A501E246ED93D0021ABEC /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		EB913BC4246D247800535153 /* Spotlights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spotlights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB913BC7246D247800535153 /* Spotlights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spotlights.h; sourceTree = "<group>"; };
-		EB913BCD246D247900535153 /* SpotlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB913BD2246D247900535153 /* SpotlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightsTests.swift; sourceTree = "<group>"; };
 		EBC6F292246D27B200C5D67A /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
 		EBC6F295246D284400C5D67A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		EBC6F297246D28DE00C5D67A /* SpotlightDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightDelegate.swift; sourceTree = "<group>"; };
@@ -52,13 +50,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EB913BC1246D247800535153 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB913BCA246D247900535153 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				EB913BC6246D247800535153 /* Spotlights */,
-				EB913BD1246D247900535153 /* SpotlightsTests */,
 				EB913BC5246D247800535153 /* Products */,
 				8E585CE019F8C14F73F83B46 /* Pods */,
 				7B2899F44043958573510F05 /* Frameworks */,
@@ -103,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				EB913BC4246D247800535153 /* Spotlights.framework */,
-				EB913BCD246D247900535153 /* SpotlightsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +100,7 @@
 		EB913BC6246D247800535153 /* Spotlights */ = {
 			isa = PBXGroup;
 			children = (
+				EB02F51E2470FEED002CCF18 /* Info.plist */,
 				EBC6F294246D281B00C5D67A /* Shape */,
 				EBC6F291246D27A300C5D67A /* Effect */,
 				EB913BC7246D247800535153 /* Spotlights.h */,
@@ -124,14 +114,6 @@
 				EBC6F2A9246D5F3E00C5D67A /* SpotlightBuilder.swift */,
 			);
 			path = Spotlights;
-			sourceTree = "<group>";
-		};
-		EB913BD1246D247900535153 /* SpotlightsTests */ = {
-			isa = PBXGroup;
-			children = (
-				EB913BD2246D247900535153 /* SpotlightsTests.swift */,
-			);
-			path = SpotlightsTests;
 			sourceTree = "<group>";
 		};
 		EBC6F291246D27A300C5D67A /* Effect */ = {
@@ -186,24 +168,6 @@
 			productReference = EB913BC4246D247800535153 /* Spotlights.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB913BCC246D247900535153 /* SpotlightsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB913BDB246D247900535153 /* Build configuration list for PBXNativeTarget "SpotlightsTests" */;
-			buildPhases = (
-				8BA4471EB07A80CE2ABFA128 /* [CP] Check Pods Manifest.lock */,
-				EB913BC9246D247900535153 /* Sources */,
-				EB913BCA246D247900535153 /* Frameworks */,
-				EB913BCB246D247900535153 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SpotlightsTests;
-			productName = SpotlightsTests;
-			productReference = EB913BCD246D247900535153 /* SpotlightsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,9 +181,6 @@
 					EB913BC3246D247800535153 = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1130;
-					};
-					EB913BCC246D247900535153 = {
-						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -237,20 +198,12 @@
 			projectRoot = "";
 			targets = (
 				EB913BC3246D247800535153 /* Spotlights */,
-				EB913BCC246D247900535153 /* SpotlightsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EB913BC2246D247800535153 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB913BCB246D247900535153 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,28 +235,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BA4471EB07A80CE2ABFA128 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Spotlights-SpotlightsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -324,14 +255,6 @@
 				EBC6F29E246D41AD00C5D67A /* TargetBuilder.swift in Sources */,
 				EBC6F2A8246D4DC900C5D67A /* Spotlight.swift in Sources */,
 				EBC6F29C246D298E00C5D67A /* Target.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB913BC9246D247900535153 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB913BD3246D247900535153 /* SpotlightsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,46 +438,6 @@
 			};
 			name = Release;
 		};
-		EB913BDC246D247900535153 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E60459121837008A9E886606 /* Pods-Spotlights-SpotlightsTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QWZQFWGZMG;
-				INFOPLIST_FILE = SpotlightsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.spotlights.SpotlightsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EB913BDD246D247900535153 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5348DCB73095F72AF532327 /* Pods-Spotlights-SpotlightsTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QWZQFWGZMG;
-				INFOPLIST_FILE = SpotlightsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.roverdream.spotlights.SpotlightsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,15 +455,6 @@
 			buildConfigurations = (
 				EB913BD9246D247900535153 /* Debug */,
 				EB913BDA246D247900535153 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB913BDB246D247900535153 /* Build configuration list for PBXNativeTarget "SpotlightsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB913BDC246D247900535153 /* Debug */,
-				EB913BDD246D247900535153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
