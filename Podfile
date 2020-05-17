@@ -6,6 +6,7 @@ target 'SpotlightsDemo' do
   use_frameworks!
 
   # Pods for SpotlightsDemo
+  pod 'Spotlights', :git => 'https://github.com/ngominhtrint/Spotlights.git'
 
   target 'SpotlightsDemoTests' do
     inherit! :search_paths

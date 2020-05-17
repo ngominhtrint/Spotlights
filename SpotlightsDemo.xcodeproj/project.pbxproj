@@ -20,20 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EBC6E5A62470288D00947CD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBC6E5A12470288D00947CD1 /* Spotlights.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB913BC4246D247800535153;
-			remoteInfo = Spotlights;
-		};
-		EBC6E5A82470288D00947CD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBC6E5A12470288D00947CD1 /* Spotlights.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EB913BCD246D247900535153;
-			remoteInfo = SpotlightsTests;
-		};
 		EBD6E343246D24BD001FF938 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EBD6E324246D24BC001FF938 /* Project object */;
@@ -50,7 +36,6 @@
 		7811B61F80BAEDB598CA675E /* Pods-SpotlightsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightsDemo.debug.xcconfig"; path = "Target Support Files/Pods-SpotlightsDemo/Pods-SpotlightsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB44BEF3246FFA08003AC8C8 /* FirstOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOverlay.swift; sourceTree = "<group>"; };
 		EB44BEF4246FFA08003AC8C8 /* FirstOverlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstOverlay.xib; sourceTree = "<group>"; };
-		EBC6E5A12470288D00947CD1 /* Spotlights.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Spotlights.xcodeproj; path = Spotlights/Spotlights.xcodeproj; sourceTree = "<group>"; };
 		EBC6F2AB246E845300C5D67A /* SpotlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightViewController.swift; sourceTree = "<group>"; };
 		EBD6E32C246D24BC001FF938 /* SpotlightsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6E32F246D24BC001FF938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,15 +90,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBC6E5A22470288D00947CD1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EBC6E5A72470288D00947CD1 /* Spotlights.framework */,
-				EBC6E5A92470288D00947CD1 /* SpotlightsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		EBD6E323246D24BC001FF938 = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +98,6 @@
 				EBD6E32D246D24BC001FF938 /* Products */,
 				EBD6E32E246D24BC001FF938 /* SpotlightsDemo */,
 				EBD6E345246D24BD001FF938 /* SpotlightsDemoTests */,
-				EBC6E5A12470288D00947CD1 /* Spotlights.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,12 +205,6 @@
 			mainGroup = EBD6E323246D24BC001FF938;
 			productRefGroup = EBD6E32D246D24BC001FF938 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = EBC6E5A22470288D00947CD1 /* Products */;
-					ProjectRef = EBC6E5A12470288D00947CD1 /* Spotlights.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				EBD6E32B246D24BC001FF938 /* SpotlightsDemo */,
@@ -243,23 +212,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		EBC6E5A72470288D00947CD1 /* Spotlights.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Spotlights.framework;
-			remoteRef = EBC6E5A62470288D00947CD1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EBC6E5A92470288D00947CD1 /* SpotlightsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SpotlightsTests.xctest;
-			remoteRef = EBC6E5A82470288D00947CD1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EBD6E32A246D24BC001FF938 /* Resources */ = {
