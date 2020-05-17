@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Spotlights/**/*.{h,m}", "Spotlights/**/*"
-  spec.exclude_files = "Spotlights/*.plist", "Spotlights/Pods/*.plist"
+  spec.exclude_files = "Spotlights/Spotlights/*.plist", "Spotlights/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
 
